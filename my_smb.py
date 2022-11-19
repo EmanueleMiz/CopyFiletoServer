@@ -14,7 +14,7 @@ import smbclient
 
 def smbCopy(suce,dest):
     try:
-        smbclient.register_session("172.31.1.103", username="serenissima\derema", password="tvlgalccllz3")
+        smbclient.register_session("172.31.1.103", username="", password="")
         smbclient.copyfile(suce,dest)
     except Exception as e: 
         print(e)        
