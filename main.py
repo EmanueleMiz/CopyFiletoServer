@@ -13,10 +13,10 @@ smb_structs.SUPPORT_SMB2 = True
 PHAT = "aprova.txt"
 #
 #p = "011"
-my_name = 'serenissima\derema'
+my_name = ''
 
 
-conn = SMBConnection(my_name, 'tvlgalccllz3', 'a','a','a')
+conn = SMBConnection(my_name, '', 'a','a','a')
 conn.connect('172.31.1.103', port=445, timeout=60)
 #file2transfer = open(filename,"r")
 #conn.storeFile('\\',path + filename, file2transfer, timeout=30 )
